@@ -1,0 +1,32 @@
+[
+    {
+        "userId": 1,
+        "userName": "Jeewon Koo",
+        "userBio": "This is a bio for Jeewon",
+        "userImg": "Sample_User_Img_1"
+    },
+    {
+        "userId": 2,
+        "userName": "Kyungyeon Lee",
+        "userBio": "This is a bio for Kyungyeon",
+        "userImg": "Sample_User_Img_2"
+    },
+    {
+        "userId": 3,
+        "userName": "Claudia Lee",
+        "userBio": "This is a bio for Claudia",
+        "userImg": "Sample_User_Img_3"
+    },
+    {
+        "userId": 4,
+        "userName": "Jane Doe",
+        "userBio": "This is a bio for Jane",
+        "userImg": ""
+    },
+    {
+        "userId": 5,
+        "userName": "John Doe",
+        "userBio": "This is a bio for John",
+        "userImg": ""
+    },
+]

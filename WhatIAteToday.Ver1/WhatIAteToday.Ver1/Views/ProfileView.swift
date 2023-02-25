@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileView: View {
     var body: some View {
         ZStack {
-            Text("Profile").navigationTitle("Profile")
+            UserDetail(user: users[0]).navigationTitle("Profile")
             VStack{
                 Spacer()
                 HStack(alignment: .center) {

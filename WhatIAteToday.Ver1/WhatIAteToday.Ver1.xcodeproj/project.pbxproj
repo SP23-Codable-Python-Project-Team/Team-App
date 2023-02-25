@@ -11,6 +11,11 @@
 		94F9098129A9E52F00875200 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098029A9E52F00875200 /* FeedView.swift */; };
 		94F9098329A9EA0C00875200 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098229A9EA0C00875200 /* ProfileView.swift */; };
 		94F9098529A9EB8400875200 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098429A9EB8400875200 /* RecipeView.swift */; };
+		94F9098729A9F4CF00875200 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098629A9F4CF00875200 /* UserDetail.swift */; };
+		94F9098929A9F83B00875200 /* UserCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098829A9F83B00875200 /* UserCircleImage.swift */; };
+		94F9098F29A9FFA700875200 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098E29A9FFA700875200 /* User.swift */; };
+		94F9099729AA01B400875200 /* ModelUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9099629AA01B400875200 /* ModelUserData.swift */; };
+		94F9099B29AA022900875200 /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94F9099A29AA022900875200 /* UserData.json */; };
 		F3B68A1629A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B68A1529A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift */; };
 		F3B68A1829A97CF1004D2DF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B68A1729A97CF1004D2DF0 /* ContentView.swift */; };
 		F3B68A1A29A97CF4004D2DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B68A1929A97CF4004D2DF0 /* Assets.xcassets */; };
@@ -42,6 +47,11 @@
 		94F9098029A9E52F00875200 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		94F9098229A9EA0C00875200 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		94F9098429A9EB8400875200 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		94F9098629A9F4CF00875200 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		94F9098829A9F83B00875200 /* UserCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCircleImage.swift; sourceTree = "<group>"; };
+		94F9098E29A9FFA700875200 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94F9099629AA01B400875200 /* ModelUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUserData.swift; sourceTree = "<group>"; };
+		94F9099A29AA022900875200 /* UserData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
 		F3B68A1229A97CF1004D2DF0 /* WhatIAteToday.Ver1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIAteToday.Ver1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B68A1529A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIAteToday_Ver1App.swift; sourceTree = "<group>"; };
 		F3B68A1729A97CF1004D2DF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +89,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94F9098C29A9FF6600875200 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3B68A1729A97CF1004D2DF0 /* ContentView.swift */,
+				94F9098029A9E52F00875200 /* FeedView.swift */,
+				94F9098429A9EB8400875200 /* RecipeView.swift */,
+				94F9098229A9EA0C00875200 /* ProfileView.swift */,
+				94F9098629A9F4CF00875200 /* UserDetail.swift */,
+				94F9098829A9F83B00875200 /* UserCircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94F9098D29A9FF7400875200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94F9098E29A9FFA700875200 /* User.swift */,
+				94F9099629AA01B400875200 /* ModelUserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94F9099029AA00B100875200 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94F9099A29AA022900875200 /* UserData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F3B68A0929A97CF1004D2DF0 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				F3B68A1529A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift */,
-				F3B68A1729A97CF1004D2DF0 /* ContentView.swift */,
-				94F9098029A9E52F00875200 /* FeedView.swift */,
-				94F9098429A9EB8400875200 /* RecipeView.swift */,
-				94F9098229A9EA0C00875200 /* ProfileView.swift */,
+				94F9098D29A9FF7400875200 /* Model */,
+				94F9098C29A9FF6600875200 /* Views */,
 				94F9097E29A9E36D00875200 /* Launch Screen.storyboard */,
+				94F9099029AA00B100875200 /* Resources */,
 				F3B68A1929A97CF4004D2DF0 /* Assets.xcassets */,
 				F3B68A1B29A97CF4004D2DF0 /* Preview Content */,
 			);
@@ -244,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F9097F29A9E36D00875200 /* Launch Screen.storyboard in Resources */,
+				94F9099B29AA022900875200 /* UserData.json in Resources */,
 				F3B68A1D29A97CF4004D2DF0 /* Preview Assets.xcassets in Resources */,
 				F3B68A1A29A97CF4004D2DF0 /* Assets.xcassets in Resources */,
 			);
@@ -271,9 +311,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F9098329A9EA0C00875200 /* ProfileView.swift in Sources */,
+				94F9098729A9F4CF00875200 /* UserDetail.swift in Sources */,
 				F3B68A1829A97CF1004D2DF0 /* ContentView.swift in Sources */,
+				94F9098929A9F83B00875200 /* UserCircleImage.swift in Sources */,
+				94F9098F29A9FFA700875200 /* User.swift in Sources */,
 				94F9098129A9E52F00875200 /* FeedView.swift in Sources */,
 				F3B68A1629A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift in Sources */,
+				94F9099729AA01B400875200 /* ModelUserData.swift in Sources */,
 				94F9098529A9EB8400875200 /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
