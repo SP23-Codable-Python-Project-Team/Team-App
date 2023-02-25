@@ -13,24 +13,30 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            Text("What I Ate Today")
+            Text("WIAT")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .padding()
-            NavigationLink(destination: DetailView()) {
+            NavigationLink(
+                destination: FeedView()) {
                 Text("Start")
-                    .font(.headline)
-                    .fontWeight(.bold)
+                .font(.headline)
+                .fontWeight(.bold)
             }
         }
     }
 }
 
-struct DetailView: View {
+struct FeedView: View {
     var body: some View {
         Text("placeholder")
             .navigationTitle("Feed")
+        HStack{
+            Image(systemName: "homekit")
+            Image(systemName: "square.and.pencil")
+            Image(systemName: "person.circle")
+        }
     }
 }
 
