@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showDetails = false
-    @State private var selection: String? = nil
-    
     var body: some View {
         NavigationStack {
             Text("WIAT")
