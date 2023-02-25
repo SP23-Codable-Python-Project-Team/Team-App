@@ -20,22 +20,10 @@ struct ContentView: View {
                 .padding()
             NavigationLink(
                 destination: FeedView()) {
-                Text("Start")
+                Text("Click Here to Start")
                 .font(.headline)
                 .fontWeight(.bold)
             }
-        }
-    }
-}
-
-struct FeedView: View {
-    var body: some View {
-        Text("placeholder")
-            .navigationTitle("Feed")
-        HStack{
-            Image(systemName: "homekit")
-            Image(systemName: "square.and.pencil")
-            Image(systemName: "person.circle")
         }
     }
 }
