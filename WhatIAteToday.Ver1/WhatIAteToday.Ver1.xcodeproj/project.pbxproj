@@ -16,6 +16,9 @@
 		94F9098F29A9FFA700875200 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9098E29A9FFA700875200 /* User.swift */; };
 		94F9099729AA01B400875200 /* ModelUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9099629AA01B400875200 /* ModelUserData.swift */; };
 		94F9099B29AA022900875200 /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94F9099A29AA022900875200 /* UserData.json */; };
+		94F9099D29AA0EBD00875200 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9099C29AA0EBD00875200 /* FriendsView.swift */; };
+		94F9099F29AA0F5200875200 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9099E29AA0F5200875200 /* UserRow.swift */; };
+		94F909A129AA104E00875200 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F909A029AA104E00875200 /* UserList.swift */; };
 		F3B68A1629A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B68A1529A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift */; };
 		F3B68A1829A97CF1004D2DF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B68A1729A97CF1004D2DF0 /* ContentView.swift */; };
 		F3B68A1A29A97CF4004D2DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B68A1929A97CF4004D2DF0 /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 		94F9098E29A9FFA700875200 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		94F9099629AA01B400875200 /* ModelUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUserData.swift; sourceTree = "<group>"; };
 		94F9099A29AA022900875200 /* UserData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		94F9099C29AA0EBD00875200 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		94F9099E29AA0F5200875200 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		94F909A029AA104E00875200 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		F3B68A1229A97CF1004D2DF0 /* WhatIAteToday.Ver1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIAteToday.Ver1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B68A1529A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIAteToday_Ver1App.swift; sourceTree = "<group>"; };
 		F3B68A1729A97CF1004D2DF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 				F3B68A1729A97CF1004D2DF0 /* ContentView.swift */,
 				94F9098029A9E52F00875200 /* FeedView.swift */,
 				94F9098429A9EB8400875200 /* RecipeView.swift */,
+				94F9099C29AA0EBD00875200 /* FriendsView.swift */,
+				94F9099E29AA0F5200875200 /* UserRow.swift */,
+				94F909A029AA104E00875200 /* UserList.swift */,
 				94F9098229A9EA0C00875200 /* ProfileView.swift */,
 				94F9098629A9F4CF00875200 /* UserDetail.swift */,
 				94F9098829A9F83B00875200 /* UserCircleImage.swift */,
@@ -310,14 +319,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F9099D29AA0EBD00875200 /* FriendsView.swift in Sources */,
 				94F9098329A9EA0C00875200 /* ProfileView.swift in Sources */,
 				94F9098729A9F4CF00875200 /* UserDetail.swift in Sources */,
 				F3B68A1829A97CF1004D2DF0 /* ContentView.swift in Sources */,
+				94F909A129AA104E00875200 /* UserList.swift in Sources */,
 				94F9098929A9F83B00875200 /* UserCircleImage.swift in Sources */,
 				94F9098F29A9FFA700875200 /* User.swift in Sources */,
 				94F9098129A9E52F00875200 /* FeedView.swift in Sources */,
 				F3B68A1629A97CF1004D2DF0 /* WhatIAteToday_Ver1App.swift in Sources */,
 				94F9099729AA01B400875200 /* ModelUserData.swift in Sources */,
+				94F9099F29AA0F5200875200 /* UserRow.swift in Sources */,
 				94F9098529A9EB8400875200 /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

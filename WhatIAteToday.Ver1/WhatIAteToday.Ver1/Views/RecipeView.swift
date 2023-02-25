@@ -17,18 +17,22 @@ struct RecipeView: View {
                     NavigationLink(
                         destination: FeedView()) {
                         Image(systemName: "homekit")
-                            .padding(.horizontal, 50.0)
+                            .padding(.horizontal, 30.0)
                     }
                     Image(systemName: "square.and.pencil")
-                        .padding(.horizontal, 50.0)
+                        .padding(.horizontal, 30.0)
+                    NavigationLink(
+                        destination: FriendsView()) {
+                        Image(systemName: "person.2.fill").padding(.horizontal, 30.0)
+                    }
                     NavigationLink(
                         destination: ProfileView()) {
                         Image(systemName: "person.circle")
-                        .padding(.horizontal, 50.0)
+                        .padding(.horizontal, 30.0)
                     }
                     
                     
-                }.frame(minWidth: 100, maxWidth: .infinity, minHeight: 50, maxHeight: 100)
+                }.frame(minWidth: 100, maxWidth: .infinity, minHeight: 50, maxHeight: 80)
                     .background(Color(hue: 0.731, saturation: 0.011, brightness: 0.798))
             }
             .ignoresSafeArea()
