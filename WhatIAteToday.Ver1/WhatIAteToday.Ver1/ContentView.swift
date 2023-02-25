@@ -9,37 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showDetails = false
+    @State private var selection: String? = nil
+    
     var body: some View {
-        VStack {
-            Image(systemName: "square.and.pencil")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            
-            //Landing page text
-            Text("What I Ate Today!")
-                .font(.system(size: 40))
+        NavigationStack {
+            Text("What I Ate Today")
+                .font(.largeTitle)
+                .fontWeight(.bold)
                 .multilineTextAlignment(.center)
-            
-            //Start button
-            Button("START") {
-                showDetails.toggle()
+                .padding()
+            NavigationLink(destination: DetailView()) {
+                Text("Start")
+                    .font(.headline)
+                    .fontWeight(.bold)
             }
-            
-            //Move to the next page
-            NavigationLink(destination: homeView(), label: {
-                Text("START")
-                
-            })
         }
-        .padding()
     }
 }
 
-struct homeView: View {
+struct DetailView: View {
     var body: some View {
-        Text("This is tmp Home!")
-            .font(.system(size: 40))
-            .multilineTextAlignment(.center)
+        Text("placeholder")
+            .navigationTitle("Feed")
     }
 }
 
