@@ -8,26 +8,30 @@
 import SwiftUI
 
 struct FeedView: View {
+//    @State var shouldShowImage = false
+//    @State var image: UIImage?
+    
     var body: some View {
+        
         ZStack {
-            Text("Feed").navigationTitle("Feed")
+            Image(systemName: "camera.fill").navigationTitle("Feed")
             VStack{
                 Spacer()
                 HStack(alignment: .center) {
                     Image(systemName: "homekit")
                         .padding(.horizontal, 30.0)
                     NavigationLink(
-                        destination: RecipeView()) {
+                        destination: RecipeView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "square.and.pencil")
                             .padding(.horizontal, 30.0)
                     }
                     NavigationLink(
-                        destination: FriendsView()) {
+                        destination: FriendsView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "person.2.fill").padding(.horizontal, 30.0)
                     }
                     
                     NavigationLink(
-                        destination: ProfileView()) {
+                        destination: ProfileView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "person.circle")
                         .padding(.horizontal, 30.0)
                     }
@@ -38,6 +42,10 @@ struct FeedView: View {
             }
             .ignoresSafeArea()
         }
+//        .navigationViewStyle(StackNavigationViewStyle())
+//        .fullScreenCover(isPresented: $shouldShowImage, onDismiss: nil) {
+//            ImagePicker(image: $image)
+//        }
     }
 }
 
@@ -46,3 +54,4 @@ struct FeedView_Previews: PreviewProvider {
         FeedView()
     }
 }
+

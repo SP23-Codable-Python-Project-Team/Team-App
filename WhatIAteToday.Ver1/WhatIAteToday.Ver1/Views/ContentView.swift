@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationStack {
             Text("WIAT")
@@ -16,17 +17,25 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
                 .padding()
             NavigationLink(
-                destination: FeedView()) {
+                destination: FeedView().navigationBarBackButtonHidden(true)) {
                 Text("Click Here to Start")
                 .font(.headline)
                 .fontWeight(.bold)
+                
             }
         }
+        
+        
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    
     }
 }
+
+

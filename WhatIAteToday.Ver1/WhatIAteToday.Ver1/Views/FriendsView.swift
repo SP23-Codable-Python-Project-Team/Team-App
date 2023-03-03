@@ -16,18 +16,18 @@ struct FriendsView: View {
                 Spacer()
                 HStack(alignment: .center) {
                     NavigationLink(
-                        destination: FeedView()) {
+                        destination: FeedView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "homekit")
                             .padding(.horizontal, 30.0)
                     }
                     NavigationLink(
-                        destination: RecipeView()) {
+                        destination: RecipeView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "square.and.pencil")
                             .padding(.horizontal, 30.0)
                     }
                     Image(systemName: "person.2.fill").padding(.horizontal, 30.0)
                     NavigationLink(
-                        destination: ProfileView()) {
+                        destination: ProfileView().navigationBarBackButtonHidden(true)) {
                         Image(systemName: "person.circle")
                         .padding(.horizontal, 30.0)
                     }
