@@ -11,10 +11,12 @@ struct FeedView: View {
 //    @State var shouldShowImage = false
 //    @State var image: UIImage?
     
+    weak var imageView: UIImageView!
+    
     var body: some View {
-        
         ZStack {
-            Image(systemName: "camera.fill").navigationTitle("Feed")
+            PictureUpload()
+
             VStack{
                 Spacer()
                 HStack(alignment: .center) {
@@ -42,10 +44,6 @@ struct FeedView: View {
             }
             .ignoresSafeArea()
         }
-//        .navigationViewStyle(StackNavigationViewStyle())
-//        .fullScreenCover(isPresented: $shouldShowImage, onDismiss: nil) {
-//            ImagePicker(image: $image)
-//        }
     }
 }
 

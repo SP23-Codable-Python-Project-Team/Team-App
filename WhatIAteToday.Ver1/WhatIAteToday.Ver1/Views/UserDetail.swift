@@ -50,6 +50,6 @@ struct BackgroundView: View {
 
 struct UserDetail_Previews: PreviewProvider {
     static var previews: some View {
-        UserDetail(user: users[4])
+        UserDetail(user: users[0])
     }
 }

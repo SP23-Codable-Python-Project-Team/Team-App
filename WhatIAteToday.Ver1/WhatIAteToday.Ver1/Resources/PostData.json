@@ -1,0 +1,92 @@
+[
+    {
+        "postId": 1,
+        "postName": "Lorem ipsum dolor sit amet",
+        "postContent": "consectetur adipiscing elit. Nulla non orci convallis, maximus ante sed, eleifend leo. Aliquam in scelerisque lorem. Sed risus dui, fermentum sed ultrices consectetur, eleifend a sem. In hac habitasse platea dictumst. In feugiat, enim vitae finibus tincidunt, quam ex rutrum ipsum, et semper quam lacus et purus. Fusce rutrum faucibus augue finibus luctus.",
+        "postImg": "postimg_1"
+    },
+    {
+        "postId": 2,
+        "postName": "Kyungyeon Lee",
+        "postContent": "This is a bio for Kyungyeon",
+        "postImg": "Sample_User_Img_2"
+    },
+    {
+        "postId": 3,
+        "postName": "Claudia Lee",
+        "postContent": "This is a bio for Claudia",
+        "postImg": "Sample_User_Img_3"
+    },
+    {
+        "postId": 4,
+        "postName": "Jane Doe",
+        "postContent": "This is a bio for Jane",
+        "postImg": ""
+    },
+    {
+        "postId": 5,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 6,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 7,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 8,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 9,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 10,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 11,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 12,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 13,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 14,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+    {
+        "postId": 15,
+        "postName": "John Doe",
+        "postContent": "This is a bio for John",
+        "postImg": ""
+    },
+]
